@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #014e58;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1em 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    border-bottom: 1PX solid #75cdc6;
+    color: #75cdc6;
+}
+
+.logo {
+    flex: 0.9;
+    flex-direction: row;
+    display: flex;
+    padding: 0em 2em;
+    align-items: center;
+}
+
+.logi {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: #75cdc6;
+}
+
+.hero-button {
+    padding: 10px 22px;
+    background: transparent;
+    color: #75cdc6;
+    border-radius: 20px;
+    border: 1px solid #75cdc6;
+    text-align: center;
+}
+
+.hero-button:hover {
+    background: #75cdc6;
+    color: #014e59;
+}
+
+.hero-header {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 1em 7.8em;
+    gap: 450px;
+}
+
+.header-col-1 h1{
+    font-size: 36px;
+    width: 150px;
+    /* line-height: 26px; */
+    margin-top: 60px;
+}
+
+.header-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.c {
+    color: #e78389;
+}
+
+.p{
+    width: 500px;
+}
+
+.hero-col-div {
+    height: 95vh;
+    background: #014046;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 7.8em;
+    align-items: center;
+    gap: 35px;
+}
+
+.col-header h1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.col-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.col-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+.col-box-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.main {
+    background: #022e31;
+    border-radius: 5px;
+    border: 1px solid #022e31;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.overlay {
+    /* position: absolute; */
+    /* width: 155%; */
+    height: 100%;
+    color: #f1ece6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main {
+    position: relative;
+}
+.mainZ:hover .overlay {
+    background: #002527;
+    color: #fff;
+    display: none;
+}
+
+.overlay-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.hero-parteners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    background: #022e34;
+    gap: 20px;
+}
+
+.partners-header {
+    margin-top: 50px;
+}
+
+.partners-header h1 {
+    font-size: 30px;
+}
+
+.clients {
+    padding: 10px 22px;
+    background: transparent;
+    color: #75cdc6;
+    border-radius: 20px;
+    border: 1px solid #75cdc6;
+    text-align: center;
+}
+
+.partners-headers {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.explore {
+    height: 20vh;
+    background: #f1817f;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 8em;
+    align-items: center;
+    gap: 800px;
+}
+
+.price {
+    padding: 10px 22px;
+    background: transparent;
+    color: #022e31;
+    border-radius: 20px;
+    border: 1px solid #022e34;
+    text-align: center;
+}
+
+
+footer {
+    background: #012428;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.merge {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 7.5em;
+    gap: 90px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.clients:hover {
+    background: #75cdc6;
+    color: #014e59;
+}
+
+.price:hover {
+    background: #75cdc6;
+    color: #014e59;
+}
